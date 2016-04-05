@@ -1,0 +1,27 @@
+<template name="homeIndex">
+	<h1>Willkømmen Meingawd</h1>
+<div class="cover">
+    <div class="clearfix"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1>Welcome to The Rocket Shop</h1>
+          <p class="lead">
+            Dankle Berries Candy Pop Lick Stop
+          </p>
+        </div>
+      </div>
+      <hr/>
+    </div>
+  </div>
+  <div class="container marketing">
+    <div class="row">
+      {{#each featured}}
+      //this is scoped to item in loop
+        {{> productTile this}}
+      {{/each}}
+    </div>
+  </div>
+</template>
