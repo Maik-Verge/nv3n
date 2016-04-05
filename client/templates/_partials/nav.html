@@ -15,7 +15,9 @@
 <li><a href="{{pathFor 'homeAbout'}}">About</a></li>
 <li><a href="{{pathFor 'homeSettings'}}">Settings</a></li>
 <li><a href="#">Profile</a></li>
-<li><a href="#">Help</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-left">
+	{{> loginButtons}} <!-- here -->
 </ul>
 <form class="navbar-form navbar-right">
 <input type="text" class="form-control" placeholder="Search...">
