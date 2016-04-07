@@ -31,3 +31,5 @@ twbs:bootstrap
 alanning:roles
 check
 meteorhacks:async
+pcel:accounting
+mike:mocha
